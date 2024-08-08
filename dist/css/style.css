@@ -1041,7 +1041,7 @@ td.CheckBoxColumn{
 .Box{
 	border-radius:1px;
 	-webkit-border-radius:1px;
-	background:#cfc;
+	background:rgb(72, 95, 222);
 	color:#888;
 	padding:6px 10px;
 	margin:0 0 10px;
@@ -3784,7 +3784,7 @@ body.embed .InformMessages{
 	position:relative;
 	font-size:11px;
 	line-height:18px;
-	margin-left::-10px
+	margin-left:-10px
 }
 .Reactions>a.React{
 	margin:0 10px;
