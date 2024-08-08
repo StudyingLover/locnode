@@ -68,10 +68,10 @@ a{
 }
 div.Tabs,div.Headings{
 	display:block;
-	border-bottom:1px solid #aea;
+	border-bottom:1px solid rgb(28, 79, 234);
 	padding:5px 8px;
 	margin:0;
-	background:#cfc
+	background:rgb(65, 128, 239)
 }
 div.MessageForm div.Tabs{
 	padding:0;
@@ -92,10 +92,10 @@ div.MorePager a,div.MorePager a:link,div.MorePager a:hover,div.MorePager a:activ
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
-	background:#b0f0b0;
+	background:#2d90dc;
 	display:inline;
 	font-weight:700;
-	color:#484;
+	color:rgb(23, 55, 234);
 	text-decoration:none;
 	padding:3px 10px;
 	line-height:2.6;
@@ -116,7 +116,7 @@ div.Tabs li a span{
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	font-weight:400;
-	background:#484;
+	background:rgb(68, 84, 136);
 	color:#eaf4fd;
 	margin:0 0 0 4px
 }

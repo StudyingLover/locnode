@@ -1,7 +1,9 @@
 name: buildanddeploy to cfpagesaio
 
 on:
-  #push:
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 env:
@@ -17,7 +19,6 @@ jobs:
     environment:
       name: ${{ github.event.inputs.DEPLOYMENT_ENVIRONMENT }}
     steps:
-
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -29,11 +30,8 @@ jobs:
 
       - name: buildanddeploy to cfpagesaio
         run: |
-          
+
           sudo npm install toml aws-sdk
           sudo npm install -g wrangler
           sh .github/serverless/generate_vars_toml.sh && sudo node .github/serverless/init_app_db.js && sudo node .github/serverless/init_project.js
           sudo node .github/serverless/sync_project_config.js && NODE_ENV=production sudo node .github/serverless/direct_upload.js
-
-
-
