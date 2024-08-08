@@ -23,21 +23,21 @@ body{
 	margin:0 280px 0 0
 }
 #Head{
-	background-color:#60a96d
+	background-color:#5e8fea
 }
 a{
 	color:#1c4ed5
 }
 .BreadcrumbsWrapper{
-	background:#cfc;
-	border-bottom-color:#aea;
-	color:#3aa53a
+	background:rgb(145, 162, 226);
+	border-bottom-color:rgba(22, 82, 179, 0.905);
+	color:#2446ad
 }
 .BreadcrumbsWrapper .Breadcrumbs a{
-	color:#006b00
+	color:#001b6b
 }
 .Pager a{
-	color:#0b7a0b
+	color:#0b3b7a
 }
 .Pager .Highlight{
 	background-color:honeyDew
@@ -58,7 +58,7 @@ a{
 }
 #root{
 	background-color:#fff;
-	border-color:#aea;
+	border-color:rgb(74, 119, 231);
 	border-radius:0 0 20px 20px;
 	border-style:solid;
 	border-width:0;
@@ -88,7 +88,7 @@ div.Tabs li{
 }
 div.MorePager a,div.MorePager a:link,div.MorePager a:hover,div.MorePager a:active,div.MorePager a:visited,a.TabLink,a.TabLink:link,a.TabLink:hover,a.TabLink:active,a.TabLink:visited,div.Tabs li a,div.Tabs li a:link,div.Tabs li a:hover,div.Tabs li a:active,div.Tabs li a:visited{
 	margin:0;
-	border:1px solid #aea;
+	border:1px solid rgb(170, 186, 238);
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -288,10 +288,10 @@ div.Headings div.MetaHeading{
 .AuthorInfo .RoleTitle {
   padding:0px 4px 0px 0px;
   margin-left: 5px;
-  border:1px solid #aea;
+  border:1px solid rgb(170, 193, 238);
   border-radius:2px;
-  background:#b0f0b0;
-  color:#484
+  background:#b0c4f0;
+  color:rgb(68, 93, 136)
 };
 
 .react-tabs {
