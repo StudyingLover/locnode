@@ -231,7 +231,7 @@ div.Headings div.MetaHeading{
 }
 
 .stat2 {
-  background-color: #cfc;
+  background-color: rgb(204, 235, 255);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   padding: 10px;

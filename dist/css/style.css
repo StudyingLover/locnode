@@ -1041,7 +1041,7 @@ td.CheckBoxColumn{
 .Box{
 	border-radius:1px;
 	-webkit-border-radius:1px;
-	background:rgb(72, 95, 222);
+	background:rgb(120, 154, 205);
 	color:#888;
 	padding:6px 10px;
 	margin:0 0 10px;
@@ -1261,7 +1261,7 @@ td.CheckBoxColumn{
 #Panel .BoxFilter{
 	border-radius:1px;
 	-webkit-border-radius:1px;
-	background:#cfc;
+	background:rgb(204, 246, 255);
 	color:#888;
 	padding:6px 10px;
 	margin:0 0 10px;
